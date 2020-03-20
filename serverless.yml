@@ -8,7 +8,7 @@ provider:
 layers:
   fbprophet:
     path: layer
-    description: fbprophet 0.6 s3fs 0.4.0 python 3.7
+    description: fbprophet 0.6 numpy 1.18.2 pandas 1.0.3 s3fs 0.4.0 python 3.7
     compatibleRuntimes:
       - python3.7
     licenseInfo: MIT License

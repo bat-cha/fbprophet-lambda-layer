@@ -8,7 +8,7 @@ RUN python3 -m venv $VIRTUAL_ENV
 RUN . $VIRTUAL_ENV/bin/activate
 
 RUN pip install --upgrade pip
-RUN pip install s3fs==0.4.0 pystan==2.18 fbprophet==0.6 --no-cache
+RUN pip install s3fs==0.4.0 pystan==2.18 pandas==1.0.3 numpy==1.18.2 fbprophet==0.6 --no-cache
 
 RUN pip uninstall -y matplolib
 
